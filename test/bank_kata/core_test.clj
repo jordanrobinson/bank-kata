@@ -54,8 +54,6 @@
         (is (= (:amount first-transaction) -1000))
         (is (= (:date first-transaction) "13/01/2012"))))))
 
-(deftest sorts-transactions)
-
 (deftest can-print-transactions
   (testing "can print transactions"
     (testing "according to formatting"
